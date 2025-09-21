@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;              /* Enable flexbox */
+  justify-content: space-between; /* Space between items, edges touched */
+  flex-wrap: wrap;            /* Allow items to wrap onto the next row */
+  width: 100vw;               /* Full viewport width */
+  min-height: 100vh;          /* Ensure it spans full viewport height */
+}
+
+.item {
+  width: 100px;               /* Fixed width */
+  height: 100px;              /* Fixed height */
+  background-color: red;      /* Red background */
+  margin: 10px 0;             /* Small vertical margin for spacing rows */
+}
